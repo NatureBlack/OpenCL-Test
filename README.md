@@ -1,2 +1,3 @@
 # OpenCL-Test
-experiments of OpenCL
+
+add python script to generate .hpp file from .cl file

@@ -73,7 +73,7 @@ int main()
     int num = 1000000;
 
     // get buffer
-    Buffer buf(context, CL_MEM_READ_WRITE, groupSize * sizeof(int));
+    Buffer buf(context, CL_MEM_READ_WRITE, groupSize * sizeof(float));
 
     // make command queue
     CommandQueue cq(context, vd[0], CL_QUEUE_PROFILING_ENABLE, &err);
